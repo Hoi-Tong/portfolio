@@ -15,7 +15,7 @@ function App() {
     
         <h1>Hi, I'm Hoi Tong!</h1>
         <p>I'm a CS major student studying at UCSC.</p>
-        <p>I'm interning at NASA <img src={nasa_image} alt="nasa image" className="inline-image-nasa" />, and fellowed at Palantir <img src={palantir_image} alt="palantir image" className="inline-image-palantir" />. Also, I'm currently doing undergraduate research.</p>
+        <p>I'm interning at NASA <img src={nasa_image} alt="nasa image" className="inline-image-nasa" />, and I fellowed at Palantir <img src={palantir_image} alt="palantir image" className="inline-image-palantir" />. Also, I'm currently doing undergraduate research.</p>
         <p>In my free time, I like to make cute projects.🐱</p>
         <p>You might also see me play golf and tennis from time to time.⛳🎾</p>
 
@@ -45,6 +45,7 @@ function App() {
         <h1>My Projects</h1>
       </div>
 
+<div className="container">
 
   <div className="SkillSwap-section">
   <div className="SkillSwap-intro">
@@ -56,8 +57,8 @@ function App() {
   >
     <h1>SkillSwap</h1>
     </a>
-        <p>I thought it would be nice to teach people how to play golf while</p>
-        <p>learning any new skill for myself, so I created SkillSwap!</p> 
+        <p>I thought it would be nice to teach people how to play golf</p>
+        <p>while learning any new skill for myself, so I created SkillSwap!</p> 
          </div>
 
   <img
@@ -79,9 +80,10 @@ function App() {
   >
     <h1>Loan Default Prediction Project</h1>
     </a>
-    <p>I had a weird dream about becoming a money loan. After I woke up, I wondered</p>
-    <p>how can I tell if a person is a good candidnate to loan money to? Then, I</p>
-    <p>searched up methods to analyize and wanted to create a machine learning</p>
+    <p>I had a weird dream about becoming a money loan. After I</p>
+    <p>woke up, I wondered how can I tell if a person is a good</p>
+    <p>candidate to loan money to? Then, I searched up how to do</p>
+    <p>data analysis and modeling and created a machine learning</p>
     <p>model that predict loan default with many data.</p>
   </div>
 
@@ -105,8 +107,8 @@ function App() {
   >
     <h1>PawFit</h1>
     </a>
-    <p>I like cats, and I like fashion. So, I created Pawfit! I have cats dress in random</p>
-    <p>outfits. I had so much fun making this project!!</p>
+    <p>I like cats, and I like fashion. So, I created Pawfit! I have cats</p>
+    <p>dress in random outfits. I had so much fun making this project!!</p>
   </div>
 
   <img
@@ -118,7 +120,7 @@ function App() {
 
     </div>
 
-
+</div>
 
 
 

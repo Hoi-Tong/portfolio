@@ -63,72 +63,42 @@
   font-size: calc(20px + 2vmin);
 }
 
-.SkillSwap-section {
-  display: flex;          /* horizontal layout */
-  justify-content: flex-start; /* keep everything to the left */
-  align-items: flex-start;     /* align items at the top */
-  gap: 2rem;              /* space between text and image */
-  padding-top: 100px;
-  padding-left: 350px;
-
-}
-
-.SkillSwap-intro {
-  text-align: left;       /* ensure text is left-aligned */
-}
-
-.SkillSwap-image {
-  width: 300px;           /* adjust image size */
-  height: auto;
-  border-radius: 0px;
-  object-fit: cover;
-  padding-left: 80px;
-
-}
-
-
-.LoanProject-section {
-  display: flex;               /* horizontal layout */
-  justify-content: flex-start; /* keep section to the left */
-  align-items: flex-start;     /* align text + image to top */
-  gap: 2rem;                   /* space between text and image */
-  padding-top: 100px;
-  padding-left: 350px;          /* smaller padding, not huge offsets */
-}
-
-.LoanProject-intro {
-  text-align: left;            /* left-align text */
-}
-
-.LoanProject-image {
-  width: 300px;                /* adjust image size */
-  height: auto;
-  border-radius: 10px;         /* optional: rounded corners */
-  object-fit: cover;
-}
-
-
-
+.SkillSwap-section,
+.LoanProject-section,
 .PawFit-section {
-  display: flex;               /* horizontal layout */
-  justify-content: flex-start; /* keep section to the left */
-  align-items: flex-start;     /* align text + image to top */
-  gap: 2rem;                   /* space between text and image */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;  /* centers the whole section */
+  gap: 80px;
   padding-top: 100px;
-  padding-left: 350px;          /* spacing from top and left edges */
-  padding-bottom: 300px;
-
+  width: 100%;
 }
 
+.SkillSwap-section > *,
+.LoanProject-section > *,
+.PawFit-section > * {
+  flex-shrink: 0;           /* prevents uneven shrinking */
+}
+
+.SkillSwap-intro,
+.LoanProject-intro,
 .PawFit-intro {
-  text-align: left;            /* left-align text */
+  text-align: left;
+  max-width: 450px;         /* keeps text block narrow for balance */
 }
 
+.SkillSwap-image,
+.LoanProject-image,
 .PawFit-image {
-  width: 300px;                /* adjust image size */
+  width: 300px;
   height: auto;
-  border-radius: 10px;         /* optional: rounded corners */
   object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* centers all sections in the parent */
 }
 
 .project-link {
@@ -152,4 +122,8 @@
   height: 48px;
   vertical-align: middle; /* aligns it nicely with the text */
   margin: 0 px;      /* space before and after */
+}
+
+.PawFit-section {
+  padding-bottom: 150px; /* 👈 space inside the section */
 }
