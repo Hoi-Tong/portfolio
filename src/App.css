@@ -1,0 +1,155 @@
+.App {
+  text-align: flex;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  gap: 0rem;
+
+}
+
+.intro {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0rem;
+}
+
+.App-header {
+  
+  display: flex;
+  justify-content: center;  /* 👈 THIS centers everything horizontally */
+  align-items: center;
+  gap: 0rem;
+}
+
+.intro h1,
+.intro p {
+  margin: 0.3rem 0; /* smaller top & bottom margins */
+  line-height: 1.6; /* tighter line spacing */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f4e4fff2;
+  min-height: 100vh;
+  display: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1.5vmin);
+  color: rgb(0, 0, 0);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.LinkedIn-link {
+  color: #61dafb;
+}
+
+.projects_header {
+  width: 100%;     /* take full width */
+  text-align: center;
+  padding-top: 100px;
+  font-size: calc(20px + 2vmin);
+}
+
+.SkillSwap-section {
+  display: flex;          /* horizontal layout */
+  justify-content: flex-start; /* keep everything to the left */
+  align-items: flex-start;     /* align items at the top */
+  gap: 2rem;              /* space between text and image */
+  padding-top: 100px;
+  padding-left: 350px;
+
+}
+
+.SkillSwap-intro {
+  text-align: left;       /* ensure text is left-aligned */
+}
+
+.SkillSwap-image {
+  width: 300px;           /* adjust image size */
+  height: auto;
+  border-radius: 0px;
+  object-fit: cover;
+  padding-left: 80px;
+
+}
+
+
+.LoanProject-section {
+  display: flex;               /* horizontal layout */
+  justify-content: flex-start; /* keep section to the left */
+  align-items: flex-start;     /* align text + image to top */
+  gap: 2rem;                   /* space between text and image */
+  padding-top: 100px;
+  padding-left: 350px;          /* smaller padding, not huge offsets */
+}
+
+.LoanProject-intro {
+  text-align: left;            /* left-align text */
+}
+
+.LoanProject-image {
+  width: 300px;                /* adjust image size */
+  height: auto;
+  border-radius: 10px;         /* optional: rounded corners */
+  object-fit: cover;
+}
+
+
+
+.PawFit-section {
+  display: flex;               /* horizontal layout */
+  justify-content: flex-start; /* keep section to the left */
+  align-items: flex-start;     /* align text + image to top */
+  gap: 2rem;                   /* space between text and image */
+  padding-top: 100px;
+  padding-left: 350px;          /* spacing from top and left edges */
+  padding-bottom: 300px;
+
+}
+
+.PawFit-intro {
+  text-align: left;            /* left-align text */
+}
+
+.PawFit-image {
+  width: 300px;                /* adjust image size */
+  height: auto;
+  border-radius: 10px;         /* optional: rounded corners */
+  object-fit: cover;
+}
+
+.project-link {
+  color: inherit;        /* uses the same color as your text */
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: #b361fb; /* or any highlight color */
+}
+
+.inline-image-nasa {
+  width: 60px;        /* adjust size */
+  height: 60px;
+  vertical-align: middle; /* aligns it nicely with the text */
+  margin: 0 px;      /* space before and after */
+}
+
+.inline-image-palantir {
+  width: 48px;        /* adjust size */
+  height: 48px;
+  vertical-align: middle; /* aligns it nicely with the text */
+  margin: 0 px;      /* space before and after */
+}
