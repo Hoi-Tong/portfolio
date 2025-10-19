@@ -4,11 +4,12 @@ import loan_image from './loan.png';
 import pawfit_image from './pawfit.webp';
 import nasa_image from './nasa.png';
 import palantir_image from './Palantir.webp';
-import resume from './Hoi_Tong_Yeung_resume_10_18_2025.pdf';
+import resume from './Hoi_Tong_Yeung_resume.pdf';
 import './App.css';
 
 function App() {
   return (
+    <div className="website-wrapper">
     <div className="App">
       <header className="App-header">
         <div className='intro'>
@@ -32,6 +33,8 @@ function App() {
         >
           LinkedIn
         </a>
+
+        <p> | </p>
         <a
           className="App-link"
           href="https://github.com/Hoi-Tong"
@@ -41,16 +44,11 @@ function App() {
           GitHub
         </a>
 
-        <a
-          className="App-link"
-          href="https://github.com/Hoi-Tong"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
+      <p> | </p>
 
-        <a href="/resume.pdf" download="Hoi_Tong_Yeung_resume_10_18_2025.pdf">
+        <a 
+          className="App-link"
+          href={resume} download="Hoi_Tong_Yeung_resume.pdf">
           Resume
         </a>
 
@@ -142,7 +140,7 @@ function App() {
 
 
 
-
+</div>
   );
 }
 
