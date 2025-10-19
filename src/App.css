@@ -127,3 +127,18 @@
 .PawFit-section {
   padding-bottom: 150px; /* 👈 space inside the section */
 }
+
+.social-links {
+  display: flex;        /* places children on one row */
+  gap: 12px;            /* space between links */
+  align-items: center;  /* vertically center if different line-height */
+  /* justify-content: center;  optional: center the group horizontally */
+}
+
+.social-links a {
+  display: inline-block; /* prevents other rules from forcing block */
+  text-decoration: none;
+  padding: 4px 6px;
+  text-decoration: underline;
+
+}

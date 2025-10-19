@@ -4,6 +4,7 @@ import loan_image from './loan.png';
 import pawfit_image from './pawfit.webp';
 import nasa_image from './nasa.png';
 import palantir_image from './Palantir.webp';
+import resume from './Hoi_Tong_Yeung_resume_10_18_2025.pdf';
 import './App.css';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
 
 
 
+      <div className="social-links">
 
         <a
           className="LinkedIn-link"
@@ -38,7 +40,23 @@ function App() {
         >
           GitHub
         </a>
+
+        <a
+          className="App-link"
+          href="https://github.com/Hoi-Tong"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+
+        <a href="/resume.pdf" download="Hoi_Tong_Yeung_resume_10_18_2025.pdf">
+          Resume
+        </a>
+
         </div>
+      </div>
+
       </header>
     
       <div className='projects_header'>
