@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6e2485d6.css",
-    "main.js": "/portfolio/static/js/main.06a94cce.js",
+    "main.css": "/portfolio/static/css/main.19ac0161.css",
+    "main.js": "/portfolio/static/js/main.87f238b6.js",
     "static/js/453.d559795d.chunk.js": "/portfolio/static/js/453.d559795d.chunk.js",
     "static/media/my_image.jpg": "/portfolio/static/media/my_image.17653f573cde0614d6fa.jpg",
     "static/media/nasa.png": "/portfolio/static/media/nasa.0c1ab885a12b684b15c1.png",
@@ -10,12 +10,12 @@
     "static/media/pawfit.webp": "/portfolio/static/media/pawfit.ee837171daf6ba9bc14d.webp",
     "static/media/Palantir.webp": "/portfolio/static/media/Palantir.3ce2d37ed85393b7652a.webp",
     "index.html": "/portfolio/index.html",
-    "main.6e2485d6.css.map": "/portfolio/static/css/main.6e2485d6.css.map",
-    "main.06a94cce.js.map": "/portfolio/static/js/main.06a94cce.js.map",
+    "main.19ac0161.css.map": "/portfolio/static/css/main.19ac0161.css.map",
+    "main.87f238b6.js.map": "/portfolio/static/js/main.87f238b6.js.map",
     "453.d559795d.chunk.js.map": "/portfolio/static/js/453.d559795d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e2485d6.css",
-    "static/js/main.06a94cce.js"
+    "static/css/main.19ac0161.css",
+    "static/js/main.87f238b6.js"
   ]
 }
