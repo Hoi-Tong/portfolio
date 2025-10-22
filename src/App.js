@@ -16,7 +16,7 @@ function App() {
         <img src={myPhoto} className="App-logo" alt="My Photo" />
     
         <h1>Hi, I'm Hoi Tong!</h1>
-        <p>I'm a CS major student studying at UCSC.</p>
+        <p>I'm a Computer Science major with Electrical Engineering minor student studying at UCSC.</p>
         <p>I'm interning at NASA <img src={nasa_image} alt="nasa image" className="inline-image-nasa" />, and I fellowed at Palantir <img src={palantir_image} alt="palantir image" className="inline-image-palantir" />. Also, I'm currently doing undergraduate research.</p>
         <p>In my free time, I like to make cute projects.🐱</p>
         <p>You might also see me play golf and tennis from time to time.⛳🎾</p>
