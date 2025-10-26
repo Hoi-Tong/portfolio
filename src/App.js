@@ -96,7 +96,7 @@ function App() {
   >
     <h1>Riskify</h1>
     </a>
-    <p>I wondered how can I tell if a person is a good candidate</p>
+    <p>I wondered how can I tell if a person is a good candidate    </p>
     <p>to loan money to? Then, I searched up how to do data</p>
     <p>analysis and modeling and created a machine learning</p>
     <p>model that predict loan default with many data.</p>
@@ -122,8 +122,9 @@ function App() {
   >
     <h1>PawFit</h1>
     </a>
-    <p>I like cats, and I like fashion. So, I created Pawfit! I have cats</p>
-    <p>dress in random outfits. I had so much fun making this project!!</p>
+    <p>I like cats and dogs, and I like fashion. So, I created Pawfit!</p>
+    <p>I have cats dress in random outfits. I had so much fun making </p>
+    <p>this project!!</p>
   </div>
 
   <img
