@@ -94,12 +94,11 @@ function App() {
     rel="noopener noreferrer"
     className="project-link"
   >
-    <h1>Loan Default Prediction Project</h1>
+    <h1>Riskify</h1>
     </a>
-    <p>I had a weird dream about becoming a money loan. After I</p>
-    <p>woke up, I wondered how can I tell if a person is a good</p>
-    <p>candidate to loan money to? Then, I searched up how to do</p>
-    <p>data analysis and modeling and created a machine learning</p>
+    <p>I wondered how can I tell if a person is a good candidate</p>
+    <p>to loan money to? Then, I searched up how to do data</p>
+    <p>analysis and modeling and created a machine learning</p>
     <p>model that predict loan default with many data.</p>
   </div>
 
